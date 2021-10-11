@@ -71,8 +71,8 @@ object Main {
     println("─" * 50)
 
     val nghia: String = "Big Data Engineer"
-    val date: Int = 1809
-    println(s"#Hello World $nghia on ${date + 1}".stripMargin('#'))
+    val date: Int = 1810
+    println(s"#Hello World $nghia on ${date}".stripMargin('#'))
     println(f"${date + 1}%20.2f")
 
     println("─" * 50)
@@ -141,14 +141,14 @@ object Main {
 
     println("─" * 50)
     println("Collections and import")
-    
+
     val myArray : Array[String] = Array("scala", "spark", "database")
     println(myArray.mkString(", "))
 
     // println(myArray.apply(2))
 
     myArray.mapInPlace(_.reverse).foreach(println)
-    
+
 
     println("─" * 100)
 
